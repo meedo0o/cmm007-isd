@@ -45,7 +45,7 @@ if(isset($_POST['uid'])){
             <li><a href="index.php">Home</a></li>
         </ul>
         <div class="nav-login">
-            <form method="POST" action="includes/login.inc.php">
+            <form method="POST" action="login.inc.php">
                 <input type="text" name="uid" placeholder="Username/e-mail">
                 <input type="password" name="pwd" placeholder="password">
                 <button type="submit" name="submit">Login</button>
